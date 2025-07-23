@@ -123,8 +123,8 @@ const Footer = () => {
             <p className="text-blue-200 text-center md:text-left">
               &copy; 2025 Christ the King Nursery Teachers' College. All rights reserved.
             </p>
-            <div className="mt-4 md:mt-0">
-              <span className="text-blue-200">
+            <div className="mt-4 md:mt-0 flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
+              <span className="text-blue-200 text-xs">
                 Developed by{' '}
                 <a
                   href="https://cavemotions.com"
@@ -135,6 +135,14 @@ const Footer = () => {
                   Cave Motions
                 </a>
               </span>
+              <a
+                href="https://premium307.web-hosting.com/webmail"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-300/60 hover:text-blue-200/80 transition-colors duration-300 text-xs"
+              >
+                webmail
+              </a>
             </div>
           </div>
         </div>
